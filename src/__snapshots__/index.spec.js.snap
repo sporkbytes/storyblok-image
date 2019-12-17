@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Base Functionality should change domains and focus on the center of the image when transforming with no options 1`] = `"https://img2.storyblok.com/0x0/filters:focal(1605x1046:1705x1146)/f/39898/3310x2192/e4ec08624e/demo-image.jpeg"`;
+
+exports[`Custom focal point should focus on the bottom of the image when focalPointY is above 50 1`] = `"https://img2.storyblok.com/600x130/filters:focal(1075x1150:1175x1250)/f/39898/2250x1500/c15735a73c/demo-image-human.jpeg"`;
+
+exports[`Custom focal point should focus on the top of the image when focalPointY is below 50 1`] = `"https://img2.storyblok.com/600x130/filters:focal(1075x250:1175x350)/f/39898/2250x1500/c15735a73c/demo-image-human.jpeg"`;
+
+exports[`Facial detection and smart cropping should focus on a face when the smartCrop option is set to true 1`] = `"https://img2.storyblok.com/600x130/smart/f/39898/2250x1500/c15735a73c/demo-image-human.jpeg"`;
+
+exports[`Resizing should resize proportional to height when given a height option and no width 1`] = `"https://img2.storyblok.com/0x200/filters:focal(1605x1046:1705x1146)/f/39898/3310x2192/e4ec08624e/demo-image.jpeg"`;
+
+exports[`Resizing should resize proportional to width when given a width option and no height 1`] = `"https://img2.storyblok.com/200x0/filters:focal(1605x1046:1705x1146)/f/39898/3310x2192/e4ec08624e/demo-image.jpeg"`;
+
+exports[`Resizing should resize the image when given height and width options 1`] = `"https://img2.storyblok.com/500x500/filters:focal(1605x1046:1705x1146)/f/39898/3310x2192/e4ec08624e/demo-image.jpeg"`;

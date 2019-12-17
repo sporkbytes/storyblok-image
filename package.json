@@ -1,0 +1,41 @@
+{
+  "name": "@sporkbytes/storyblok-image",
+  "version": "0.1.0",
+  "description": "Helpers for transforming images with Storyblok's Image Service.",
+  "main": "build/index.cjs.js",
+  "module": "build/index.esm.js",
+  "browser": "build/index.umd.js",
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "rm -rf ./build && rollup -c",
+    "prepare": "npm run build",
+    "test": "NODE_ENV=test jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sporkbytes/storyblok-image.git"
+  },
+  "keywords": [
+    "storyblok",
+    "image",
+    "images",
+    "transform",
+    "resize"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sporkbytes/storyblok-image/issues"
+  },
+  "homepage": "https://github.com/sporkbytes/storyblok-image#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "rollup": "^1.27.13",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-cleanup": "^3.1.1"
+  }
+}
