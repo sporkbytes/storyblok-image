@@ -1,6 +1,6 @@
 {
   "name": "@sporkbytes/storyblok-image",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helpers for transforming images with Storyblok's Image Service.",
   "main": "build/index.cjs.js",
   "module": "build/index.esm.js",
